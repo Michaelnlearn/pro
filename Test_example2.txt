@@ -1,0 +1,21 @@
+测试用例
+➜ ./cnt
+ERROR: Need a string.
+➜ ./cnt abcd
+ab 1
+bc 1
+cd 1
+abc 1
+bcd 1
+➜   g++ cnt.cpp -o cnt
+➜   ./cnt
+ERROR
+➜   ./cnt s
+➜   ./cnt sd v
+ERROR
+➜   ./cnt qwer
+er  1
+qw  1
+qwe  1
+we  1
+wer  1
