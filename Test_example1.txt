@@ -1,0 +1,20 @@
+测试用例
+➜   ./mixplus 0x10 1
+输出：0x11  17
+➜   ./mixplus 10 0x1
+输出：0xB  11
+➜   ./mixplus 0xgfhfg 12
+输出：ERROR
+➜   ./mixplus 0x12345677777 0xhello
+ERROR
+➜  ./mixplus 0x10 1
+输出：0x11 17
+➜  ./mixplus 10 0x1
+输出：0xB 11
+➜  
+./mixplus 10 
+./mixplus 0x0dragonegg
+./mixplus 10 0x
+./mixplus 10 0xdragon
+./mixplus 0xdeadbeef hello world
+都输出：ERROR
